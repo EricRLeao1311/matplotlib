@@ -22,7 +22,7 @@ import re
 
 import numpy as np
 
-from hatch import _validate_hatch_pattern
+from matplotlib.hatch import _validate_hatch_pattern
 from matplotlib import _api, cbook
 from matplotlib.cbook import ls_mapper
 from matplotlib.colors import Colormap, is_color_like
